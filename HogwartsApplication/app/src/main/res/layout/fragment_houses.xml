@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.houses.HousesFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height80"
+        android:text="@string/app_houseFragmentTitle"
+        android:textSize="@dimen/headerFontSize"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/grayBlue"
+        android:paddingTop="@dimen/padding30"
+        />
+
+    <GridView
+        android:id="@+id/houseGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:horizontalSpacing="@dimen/gridSpace20"
+        android:verticalSpacing="@dimen/gridSpace20"
+        android:layout_margin="@dimen/gridSpace20"
+        />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding30"
+    app:cardCornerRadius="@dimen/cornerRadius8"
+    android:background="@drawable/layout_border_radius"
+    app:cardBackgroundColor="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/houseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height250"
+        android:scaleType="fitXY"
+        android:padding="@dimen/padding20"
+        android:contentDescription="@string/app_DummyText"
+        android:src="@drawable/gryffindor"
+        />
+
+</androidx.cardview.widget.CardView>

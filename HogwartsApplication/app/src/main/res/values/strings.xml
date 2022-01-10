@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hogwarts Application</string>
+    <string name="app_houseFragmentTitle">What is your favourite house?</string>
+    <string name="app_DummyText">Dummy Text</string>
+    <!--Details Wizard Character-->
+    <string name="app_wizardHouseHeader">House</string>
+    <string name="app_wizardName">Wizard: </string>
+    <string name="app_wizardActor">Actor: </string>
+    <string name="app_wizardHouse">House: </string>
+    <string name="app_wizardAncestry">Ancestry: </string>
+    <string name="app_wizardWand">Wand: </string>
+    <string name="app_wizardPatronus">Patronus: </string>
+    <string name="app_wizardSpecies">Species: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
